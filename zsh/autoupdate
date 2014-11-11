@@ -17,3 +17,5 @@ if [[ -n $(git --git-dir=/home/alex/.dotfiles/.git --work-tree=/home/alex/.dotfi
         	echo "No Answer - Defaulting to no!";;
     esac
 fi
+
+clear
