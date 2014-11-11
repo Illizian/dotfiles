@@ -1,0 +1,19 @@
+update() {
+	git --git-dir=/home/alex/.dotfiles/.git --work-tree=/home/alex/.dotfiles add -A .
+	git --git-dir=/home/alex/.dotfiles/.git --work-tree=/home/alex/.dotfiles commit -m"Auto-Commit"
+	git --git-dir=/home/alex/.dotfiles/.git --work-tree=/home/alex/.dotfiles push
+}
+
+if [[ -n $(git --git-dir=/home/alex/.dotfiles/.git --work-tree=/home/alex/.dotfiles status --porcelain) ]]; then
+
+	read \?"Changes to personal config, do you wish to auto-commit? [y/n]" yn
+	case $yn in
+        [Yy]* )
+        	echo "Ok, auto updating config!"
+        	update;;
+        [Nn]* )
+        	echo "Ok, will prompt again when next launched!";;
+        * )
+        	echo "No Answer - Defaulting to no!";;
+    esac
+fi
