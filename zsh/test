@@ -1,0 +1,12 @@
+if [[ -n $(git --git-dir=/home/alex/.dotfiles/.git --work-tree=/home/alex/.dotfiles status --porcelain) ]]; then
+
+	read \?"Changes to personal config, do you wish to auto-commit? [y/n]" yn
+	case $yn in
+        [Yy]* )
+        	git --git-dir=/home/alex/.dotfiles/.git --work-tree=/home/alex/.dotfiles add -A .; git --git-dir=/home/alex/.dotfiles/.git --work-tree=/home/alex/.dotfiles commit -m"Auto-Commit"; git --git-dir=/home/alex/.dotfiles/.git --work-tree=/home/alex/.dotfiles push;;
+        [Nn]* )
+        	echo "Ok, will prompt again when next launched";;
+        * )
+        	echo "Please answer yes or no.";;
+    esac
+fi
