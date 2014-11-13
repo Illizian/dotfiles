@@ -6,7 +6,7 @@ update() {
 
 if [[ -n $(git --git-dir=/home/alex/.dotfiles/.git --work-tree=/home/alex/.dotfiles status --porcelain) ]]; then
 
-	read \?"Changes to personal config, do you wish to auto-commit? [y/n]" yn
+	read \?"There are changes to personal config, do you wish to auto-commit? [y/n]" yn
 	case $yn in
         [Yy]* )
         	echo "Ok, auto updating config!";

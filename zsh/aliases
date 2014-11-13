@@ -1,1 +1,5 @@
-la='ls -al'
+alias la='ls -al'
+alias ipconfig="ifconfig | grep 'inet addr'"
+alias getip="curl icanhazip.com"
+alias adbChrome="adb forward tcp:9222 localabstract:chrome_devtools_remote"
+alias tree="ls -R | grep ':$' | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
