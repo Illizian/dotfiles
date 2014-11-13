@@ -9,13 +9,12 @@ if [[ -n $(git --git-dir=/home/alex/.dotfiles/.git --work-tree=/home/alex/.dotfi
 	read \?"Changes to personal config, do you wish to auto-commit? [y/n]" yn
 	case $yn in
         [Yy]* )
-        	echo "Ok, auto updating config!"
-        	update;;
+        	echo "Ok, auto updating config!";
+        	update;
+			clear;;
         [Nn]* )
         	echo "Ok, will prompt again when next launched!";;
         * )
         	echo "No Answer - Defaulting to no!";;
     esac
 fi
-
-clear
