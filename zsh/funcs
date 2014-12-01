@@ -1,7 +1,18 @@
 http() {
-	if [ ! $1 ] ; then
-		php -S localhost:8000
-	elif [ $1 ] ; then
-		php -S localhost:$1
-	fi
+	HOST=localhost
+	PORT=8000
+
+	while getopts “hp:” OPTION
+	do
+		case $OPTION in
+			h)
+				HOST=0.0.0.0
+				;;
+			p)
+				PORT=$OPTARG
+				;;
+		esac
+	done
+
+	php -S $HOST:$PORT
 }
