@@ -11,7 +11,7 @@ Installation
 Run the included installer ```$ sh ~/.dotfiles/install.sh``` or manually:
 
 + xfce4 ```$ ln -s ~/.dotfiles/xfce4 ~/.config/xfce4```
-+ zshrc ```$ ln -s ~/.dotfiles/zsh/zshrc ~/.zshrc```)
++ zshrc ```$ ln -s ~/.dotfiles/zsh/zshrc ~/.zshrc```
 
 Auto-Update
 -----------
