@@ -1,0 +1,13 @@
+Use_Label=false
+Show_Values=false
+Show_Bars=true
+Colorize_Values=false
+Color_In=#46FF00
+Color_Out=#FF4F00
+Text=Net
+Network_Device=wlan0
+Max_In=1024000
+Max_Out=102400
+Auto_Max=false
+Update_Interval=250
+
