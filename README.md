@@ -8,6 +8,9 @@ Installation
 + Clone your fork into your home directory (e.g. ~/.dotfiles)
 + Replace the ~/.zshrc file with a symlink to zsh/zshrc (e.g. ```$ ln -s ~/.dotfiles/zsh/zshrc ~/.zshrc```)
 
+**Additional Configs**
++ xfce4 ```$ ln -s ~/.dotfiles/xfce4 ~/.config/xfce4```
+
 Auto-Update
 -----------
 
