@@ -1,5 +1,5 @@
 favorites=exo-file-manager.desktop,pidgin.desktop,gmusicbrowser.desktop,exo-terminal-emulator.desktop,google-chrome.desktop,geary.desktop
-recent=chrome-fhbjgbiflinjbdggehcddcbncdddomop-Profile_1.desktop,sublime_text.desktop,firefox.desktop,keepass2.desktop,google-chrome.desktop,geary.desktop,xfce-settings-manager.desktop,xfce-keyboard-settings.desktop,gpick.desktop,mysql-workbench.desktop
+recent=sublime_text.desktop,google-chrome.desktop,winusbgui.desktop,firefox.desktop,pidgin.desktop,exo-file-manager.desktop,xfce4-settings-editor.desktop,gparted.desktop,chrome-fhbjgbiflinjbdggehcddcbncdddomop-Profile_1.desktop,keepass2.desktop
 button-title=Applications Menu
 button-icon=xubuntu-logo-menu
 button-single-row=false
