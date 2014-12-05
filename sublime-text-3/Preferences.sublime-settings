@@ -2,6 +2,7 @@
 	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"theme": "Spacegray.sublime-theme",
 	"highlight_line": true,
+	"bold_folder_labels": true,
 	
 	"font_size": 8,
 	"line_padding_bottom": 3,
