@@ -12,6 +12,7 @@ Run the included installer ```$ sh ~/.dotfiles/install.sh``` or manually:
 
 + xfce4 ```$ ln -s ~/.dotfiles/xfce4 ~/.config/xfce4```
 + zshrc ```$ ln -s ~/.dotfiles/zsh/zshrc ~/.zshrc```
++ sublime-text-3 ```$ ln -s ~/.dotfiles/sublime-text-3/Preferences.sublime-settings ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings```
 
 Auto-Update
 -----------
