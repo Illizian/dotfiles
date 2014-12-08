@@ -1,6 +1,10 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
+[/home/alex/Desktop/steam.desktop]
+row=3
+col=0
+
 [Rubbish Bin]
 row=0
 col=0

@@ -1,5 +1,5 @@
 favorites=exo-file-manager.desktop,pidgin.desktop,gmusicbrowser.desktop,exo-terminal-emulator.desktop,google-chrome.desktop,geary.desktop
-recent=screencloud.desktop,xfce-settings-manager.desktop,xfce4-settings-editor.desktop,filezilla.desktop,teamviewer-teamviewer10.desktop,atom.desktop,sublime_text.desktop,chrome-fhbjgbiflinjbdggehcddcbncdddomop-Profile_1.desktop,keepass2.desktop,geary.desktop
+recent=exo-file-manager.desktop,firefox.desktop,steam.desktop,exo-terminal-emulator.desktop,screencloud.desktop,xfce-settings-manager.desktop,xfce4-settings-editor.desktop,filezilla.desktop,atom.desktop,sublime_text.desktop
 button-title=Applications Menu
 button-icon=xubuntu-logo-menu
 button-single-row=false
