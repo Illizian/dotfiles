@@ -1,5 +1,5 @@
 favorites=exo-file-manager.desktop,pidgin.desktop,gmusicbrowser.desktop,exo-terminal-emulator.desktop,google-chrome.desktop,geary.desktop
-recent=keepass2.desktop,geary.desktop,mysql-workbench.desktop,insync.desktop,screencloud.desktop,google-chrome.desktop,exo-file-manager.desktop,firefox.desktop,steam.desktop,exo-terminal-emulator.desktop
+recent=exo-file-manager.desktop,mysql-workbench.desktop,sublime_text.desktop,virtualbox.desktop,geary.desktop,keepass2.desktop,google-chrome.desktop,insync.desktop,screencloud.desktop,firefox.desktop
 button-title=Applications Menu
 button-icon=xubuntu-logo-menu
 button-single-row=false
