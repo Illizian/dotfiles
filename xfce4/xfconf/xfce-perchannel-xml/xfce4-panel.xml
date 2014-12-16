@@ -80,6 +80,10 @@
     <property name="notes" type="empty">
       <property name="global" type="empty">
         <property name="skip-taskbar-hint" type="bool" value="false"/>
+        <property name="background-color" type="string" value="#88B7E3"/>
+      </property>
+      <property name="new-window" type="empty">
+        <property name="always-on-top" type="bool" value="true"/>
       </property>
     </property>
     <property name="plugin-5" type="string" value="battery"/>
