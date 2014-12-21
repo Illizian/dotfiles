@@ -1,8 +1,13 @@
 # This loads NVM
 [[ -s ~/.nvm/nvm.sh ]] && . ~/.nvm/nvm.sh && . ~/.nvm/bash_completion
+
+# This loads RVM
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+
+# This loads Android SDK
+export PATH="$HOME/Apps/android-sdk-linux/tools:$HOME/Apps/android-sdk-linux/platform-tools:$PATH"
 
 source ~/.antigen/antigen.zsh
 
