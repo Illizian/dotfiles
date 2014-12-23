@@ -5,6 +5,10 @@
 row=3
 col=0
 
+[Nexus 4]
+row=4
+col=0
+
 [Rubbish Bin]
 row=1
 col=0
