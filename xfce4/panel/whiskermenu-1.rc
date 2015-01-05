@@ -1,5 +1,5 @@
 favorites=exo-file-manager.desktop,pidgin.desktop,gmusicbrowser.desktop,exo-terminal-emulator.desktop,google-chrome.desktop,geary.desktop
-recent=firefox.desktop,vlc.desktop,keepass2.desktop,google-chrome.desktop,geary.desktop,pidgin.desktop,chrome-https___autumnleaves.slack.com_messages_general_files_F0371DGSM_.desktop,dropbox.desktop,gcalctool.desktop,mysql-workbench.desktop
+recent=chrome-https___autumnleaves.slack.com_messages_general_files_F0371DGSM_.desktop,exo-file-manager.desktop,geary.desktop,keepass2.desktop,google-chrome.desktop,pidgin.desktop,firefox.desktop,vlc.desktop,dropbox.desktop,gcalctool.desktop
 button-title=Applications Menu
 button-icon=xubuntu-logo-menu
 button-single-row=false
